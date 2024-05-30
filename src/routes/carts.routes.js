@@ -77,10 +77,9 @@ router.delete('/:cid/products', async (req, res) =>{
     }
 })
 
-router.delete('/:cid/products/:pid',async (req, res) =>{
+/*router.delete('/:cid/products/:pid',async (req, res) =>{
     const cid = req.params.cid;
     const pid = req.params.pid;
-    const filter = {_id : cid , products: {_id: pid}}
 
     try {
         const process = await cartsModel.findOneAndDelete({$and : [{_id:cid}, [products : {_id: pid}]]}
@@ -99,7 +98,7 @@ router.delete('/:cid/products/:pid',async (req, res) =>{
     }catch (err) {
         res.status(500).send({ origin: config.SERVER, payload: null, error: err.message });
     }
-})
+})*/
 
 
 
