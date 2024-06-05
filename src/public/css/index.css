@@ -6,3 +6,97 @@
     padding: 0;
     background-color: rgb(112, 112, 112);
 }
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+h1{
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    display: inline-flex;
+    margin-top: 20px;
+    
+}
+#container-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#item{
+    width: 170px;
+    height: 140px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 15px;
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+
+h4{
+    background-color: rgb(52, 52, 52);
+    margin-bottom: 5px;
+}
+p{
+    background-color: rgb(52, 52, 52);
+    font-size: 13px;
+
+}
+#description {
+    height: 80px;
+}
+#price{
+    font-size: 20px;
+    flex-grow: 1;
+    margin-left: 5px;
+}
+
+#nameAndDescrip{
+    background-color: rgb(52, 52, 52)
+}
+#btnCart{
+    border: 0;
+    width: 65px;
+    height: 32px;
+    background-color: grey;
+    flex-grow: 1;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+    
+
+#priceAndBtn{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgb(52, 52, 52);
+
+}
+#priceAndBtn p {
+    margin-right: 30px;
+}
+
+.btnPagginate{
+    border: 1px solid black;
+    background-color: rgb(52, 52, 52);
+    text-decoration: none;
+    color: white;
+    margin:5px;
+    padding:3px;
+
+}
+
+#containerBtnPagginate{
+    display: flex;
+    justify-content: center;
+}
